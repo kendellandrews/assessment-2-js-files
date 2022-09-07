@@ -56,12 +56,15 @@ const deliveryAreaZipCodes = [85205, 85204, 85203, 85213, 85206]
 const canWeDeliver = (zipCode) => {
     for(i=0; i < deliveryAreaZipCodes.length; i++){
         if(zipCode === [i])
-        return "youre in our delivery zone"
-    // } else {
-    //     return "sorry, no delivery"
+        console.log("youre in our delivery zone");
+    } 
+    else
+    {   (zipCode !== [i])
+        console.log("sorry, no delivery") 
     }
-}
-console.log(zipCode('85205'))
+    let zipCode = 85205
+
+// console.log(zipCode('85205'))
 
 
 /* 
@@ -82,7 +85,9 @@ console.log(zipCode('85205'))
 */
 
 // CODE HERE
+const canWeDeliverTwo = if(zipCodes.includes()) => {
 
+}
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -97,16 +102,16 @@ console.log(zipCode('85205'))
     Read on for more instructions.
 */
 
-// const deals = [
-//     {
-//         title: '15% Off!', 
-//         desc: 'Applied to your entire order when you spend $30 or more'
-//     }, 
-//     {
-//         title: 'Free Kids Meal with 2 Regular Entrees', 
-//         desc: '   This deal lasts until the end of March! '
-//     }
-// ]
+const deals = [
+    {
+        title: '15% Off!', 
+        desc: 'Applied to your entire order when you spend $30 or more'
+    }, 
+    {
+        title: 'Free Kids Meal with 2 Regular Entrees', 
+        desc: '   This deal lasts until the end of March! '
+    }
+]
 
 /*
     The owner has decided to take the 15% off
@@ -119,7 +124,7 @@ console.log(zipCode('85205'))
 
 //CODE HERE
 
-
+console.log(title.replace('15%', '10%'))
 
 /*
     The restaurant is going to continue its
@@ -135,3 +140,8 @@ console.log(zipCode('85205'))
 */
 
 //CODE HERE
+
+const descTwo (april) {
+    desc = april
+    console.log(desc)
+}
